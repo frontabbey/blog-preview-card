@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family: 'Figtree', sans-serif;
+     background-color:  hsl(47, 88%, 63%);
+    padding: 5rem 1rem;
+
+}
+
+@media (min-width:768px) {
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        padding: 0;
+    }
+    
+}
+
+
+.container{
+    max-width: 500px;
+    margin-inline: auto;
+    background-color:  hsl(0, 0%, 100%);
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0 black;
+
+   
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@900&family=Fraunces:opsz,wght@9..144,700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+.container div:first-child img {
+     border-radius: 1rem;
+     width: 100%; 
+}
+
+.container div:nth-child(2) h2 {
+    background-color: hsl(47, 88%, 63%);
+    font-size: 1rem;
+    display: inline-block;
+    padding:3px ;
+    border-radius: 3px;
+    margin: 1.5rem 0 1rem;
+
+
+}
+
+.container div:nth-child(2) p.publish{
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 7%)
+    ;
+
+}
+
+.container div:nth-child(2) p{
+    font-size: 1rem;
+    color:  hsl(0, 0%, 50%);
+}
+
+.container div:nth-child(2) h1 {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+
+}
+
+.container div:nth-child(2) ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+
+.container div:nth-child(2) ul li:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.container div:nth-child(2) h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+
+
+.attribution { font-size: 11px;
+     text-align: center; 
+     font-size: 16px;
+     margin-top: 2rem;
+
+    }
+
+
+     .attribution a { color: hsl(228, 45%, 44%); }
